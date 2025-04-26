@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #87cefa;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta {
+  background-color: #4682b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+section {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background: #4682b4;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
