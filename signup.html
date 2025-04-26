@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Bestfriends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Create Your Bestfriends Account</h1>
+    <p>Sign up to chat, connect, or earn!</p>
+  </header>
+
+  <section>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required><br>
+      <input type="email" id="email" placeholder="Email" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+
+      <label>
+        Sign up as:
+        <select id="role" required>
+          <option value="">Select role</option>
+          <option value="provider">Provider</option>
+          <option value="client">Client</option>
+        </select>
+      </label><br>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </section>
+
+  <script src="auth.js"></script>
+</body>
+</html>
