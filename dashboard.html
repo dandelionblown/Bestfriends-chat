@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Dashboard - Bestfriends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Your Dashboard</h1>
+    <p>You're logged in!</p>
+  </header>
+
+  <section>
+    <p>This is where you’ll manage your profile, book or offer chats, and get connected.</p>
+    <button onclick="logout()">Logout</button>
+  </section>
+
+  <script>
+    function logout() {
+      localStorage.clear();
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
